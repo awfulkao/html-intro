@@ -1,0 +1,34 @@
+*{
+    margin:0%
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.top{
+    width: 100%;
+    height: 30%;
+    background-color: darkgrey;
+}
+.middle{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    display:flex;
+}
+.leftcolumn{
+    width:30%;
+    height:100%;
+    background-color: white;
+}
+.rightcolumn{
+    width:70%;
+    height:100%;
+    background-color: white;
+}
+.bottom{
+    width: 100%;
+    height: 20%;
+    background-color: darkgrey;
+}
