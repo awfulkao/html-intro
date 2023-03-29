@@ -7,6 +7,24 @@
     <title>homework</title>
     <link rel="stylesheet" href="./homework.css">
 </head>
+<style>
+    @media screen and (max-width:720px){
+        .container{
+            height: auto;
+        }
+       .middle{
+        flex-direction: column;
+        height: 40%;
+       }
+       .leftcolumn, .rightcolumn{
+        width: 100%;
+        height: auto;
+       }
+    
+
+        
+    }
+</style>
 <body>
     <div class="container">
         <div class="top">
@@ -15,10 +33,12 @@
         <div class="middle">
             <div class="leftcolumn">
                 <h1 style="color: black; font-size: 50px;">Left column</h1>
+               <div class="loremm">
                 <p style="font-size: 30px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+               </div>
             </div>
             <div class="rightcolumn">
-                <h1 style="color: black; font-size: 50px;">right column</h1>
+                <h1 style="color: black; font-size: 50px;">Right column</h1>
                 <p style="font-size: 30px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
         </div>
