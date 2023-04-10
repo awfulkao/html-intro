@@ -8,6 +8,53 @@
     <link rel="stylesheet" href="./responsivelayout2.css">
 </head>
 <style>
+       @media screen and (max-width:320px) {
+        .container{
+            display: none;
+        } 
+        *{
+            margin: 0;
+        }
+        .containermb{
+            width: 100%;
+            height: 100vh;
+        }
+        .mbheader{
+            width: 100%;
+            height: 5%;
+            background-color: black;
+        }
+        .mbmenu{
+            width: 100%;
+            height: 5%;
+            background-color: red;
+        }
+        .mbhero{
+            width: 100%;
+            height: 20%;
+            background-color: aqua;
+        }
+        .mbmain{
+            width: 100%;
+            height: 20%;
+            background-color: darkblue;
+        }
+        .mbbanner{
+            width: 100%;
+            height: 16.6666666667%;
+            background-color: yellow;
+        }
+        .mbextra{
+            width: 100%;
+            height: 16.6666666667%;
+            background-color: aquamarine;
+        }
+        .mbimage{
+            width: 100%;
+            height: 16.6666666667%;
+            background-color: gray;
+        }
+    }
     @media screen and (min-width:1024px) {
         .tabletbottom{
             display: none;
@@ -125,5 +172,14 @@
             </div>
         </div>
     </div>
+    <div class="containermb">
+        <div class="mbheader"><h1 style="color:white">HEADER</h1></div>
+        <div class="mbmenu"><h1 style="color: white;">MENU</h1></div>
+        <div class="mbhero"><h1 style="color: white;">HERO</h1></div>
+        <div class="mbmain"><h1 style="color: white;">MAIN</h1></div>
+        <div class="mbbanner"><h1 style="color: white;">BANNER</h1></div>
+        <div class="mbextra"><h1 style="color: white;">EXTRA</h1></div>
+        <div class="mbimage"><h1 style="color:White">IMAGE</h1></div>
+</div>
 </body>
 </html>
