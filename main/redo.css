@@ -1,6 +1,45 @@
 *{
     margin: 0;
 }
+.mbcontainer{
+    width: 100%;
+    height: 100vh;
+}
+.mbheader{
+    width: 100%;
+    height: 5%;
+    background-color: black;
+}
+.mbmenu{
+    width: 100%;
+    height: 5%;
+    background-color: red;
+}
+.mbhero{
+    width: 100%;
+    height: 20%;
+    background-color: blue;
+}
+.mbmain{
+    width: 100%;
+    height: 20%;
+    background-color: darkblue;
+}
+.mbbanner{
+    width: 100%;
+    height: 16.6666666667%;
+    background-color: yellow;
+}
+.mbextra{
+    width: 100%;
+    height: 16.6666666667%;
+    background-color: aquamarine;
+}
+.mbimage{
+    width: 100%;
+    height: 16.6666666667%;
+    background-color: grey;
+}
 .container{
     width: 100%;
     height: 100vh;
